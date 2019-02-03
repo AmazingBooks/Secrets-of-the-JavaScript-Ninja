@@ -125,10 +125,41 @@ Chain in a catch method to catch promise failures: myPromise.catch(e => alert(e)
 ```C++
 
 - new Map() creates a new map. 
-- Use the set method to add a new mapping, the get method to fetch a mapping, the has method to check whether a mapping exists, and the 
-delete method to remove a mapping. 
+- Use the set method to add a new mapping, the get method to fetch a mapping, the has method to check whether 
+      a mapping exists, and the  delete method to remove a mapping. 
 
 ```
 - __Sets__ - are collections of unique items: 
 
+```C++
 
+- new Set() creates a new set. 
+- Use the add method to add a new item, the delete method to remove an item, 
+      and the size property to check the number of items in a set. 
+
+```
+- __for...of loops__ - iterate over collections and generators. 
+- __Destructuring__ - extracts data from objects and arrays: 
+
+```C++
+
+- const {name: ninjaName} = ninja;
+- const [firstNinja] = ["Yoshi"];
+
+```
+
+- __Modules__ are larger units of organizing code that allow us to divide programs into clusters: 
+
+```C++
+
+      export class Ninja{}; //Export an item
+      export default class Ninja{} //Default export
+      export {ninja};//Export existing variables
+      export {ninja as samurai}; //Rename an export
+
+      import Ninja from "Ninja.js"; //Import a default export
+      import {ninja} from "Ninja.js"; //Import named exports
+      import * as Ninja from "Ninja.js"; //Import all named exports
+      import {ninja as iNinja} from "Ninja.js"; //Import with a new name
+
+```
