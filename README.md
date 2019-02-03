@@ -67,3 +67,68 @@ They don’t have their own this parameter. Instead, they inherit it from the co
       }
       
 ```
+
+- __Promises__ - are placeholders for the result of a computation. A promise is a guarantee that eventually we’ll know the result of some computation. The promise can either succeed or fail, and once it has done so, there will be no more changes: 
+
+```Javascrip
+
+- Create a new promise with: 
+      new Promise((resolve, reject) => {});. 
+      
+- Call the resolve function to explicitly resolve a promise. Call the reject function to explicitly reject a promise. A promise is implicitly rejected if an error occurs. 
+
+- The promise object has a then method that returns a promise and takes in two callbacks, a success callback and a failure callback: 
+
+           myPromise.then(val => console.log("Success"), err => console.log("Error"));
+           
+Chain in a catch method to catch promise failures: myPromise.catch(e => alert(e));. 
+
+```
+- __Classes__ - act as syntactic sugar around JavaScript’s prototypes: 
+
+
+```Javascript
+
+      class Person {
+        constructor(name){ this.name = name; }
+        dance(){ return true; }
+      }
+      
+      class Ninja extends Person {
+        
+        constructor(name, level){
+          super(name);
+          this.level = level;
+        }
+        
+        static compare(ninja1, ninja2){
+          return ninja1.level - ninja2.level;
+        }
+        
+      }
+```
+
+- __Proxies__ - control access to other objects. Custom actions can be executed when an object is interacted with (for example, when a property is read or a function is called): 
+
+
+```Javascript
+
+      const p = new Proxy(target, {
+        get: (target, key) => { /*Called when property accessed through proxy*/ },
+        set: (target, key, value) => { /*Called when property set through proxy*/ }
+      });
+
+```
+
+- __Maps__ - are mappings between a key and a value: 
+
+```C++
+
+- new Map() creates a new map. 
+- Use the set method to add a new mapping, the get method to fetch a mapping, the has method to check whether a mapping exists, and the 
+delete method to remove a mapping. 
+
+```
+- __Sets__ - are collections of unique items: 
+
+
