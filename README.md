@@ -44,3 +44,26 @@ They don’t have their own this parameter. Instead, they inherit it from the co
       value.forEach(value => console.log(value));
 
 ```
+
+- **Generators** -  generate sequences of values on a per-request basis. Once a value is generated, the generator suspends its execution without blocking. Use __yield__ to generate values: 
+
+```javascript
+
+      function *IdGenerator(){
+        let id = 0;
+        while(true){ yield ++id; }
+      }
+      
+```
+
+
+
+
+```javascript
+
+      function *IdGenerator(){
+        let id = 0;
+        while(true){ yield ++id; }
+      }
+      
+```
