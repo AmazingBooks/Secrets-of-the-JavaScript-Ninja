@@ -31,3 +31,16 @@
          do("Fuma"); //"Fuma skulk"
 
 ```
+- **Spread operators** expand an expression where multiple items are needed: [...items, 3, 4, 5].
+- **Arrow functions** let us create functions with less **syntactic clutter**. 
+```javascript
+
+They don’t have their own this parameter. Instead, they inherit it from the context in which they were created: 
+
+      const values = [0, 3, 2, 5, 7, 4, 8, 1];
+      
+      values.sort((v1,v2) => v1  - v2); /*OR*/ 
+      values.sort((v1,v2) => { return v1  - v2;});
+      value.forEach(value => console.log(value));
+
+```
