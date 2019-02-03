@@ -1,4 +1,5 @@
 # Secrets of the JavaScript Ninja
+Is a solid book resource for the current state of using JavaScript.
 
 ## Short ES6 reminder:
 - **Template literals** - are embed expressions into strings: `${ninja}`. 
