@@ -170,11 +170,11 @@ Chain in a catch method to catch promise failures: myPromise.catch(e => alert(e)
 
 
 # Table of Contents
-1. [Chapter 1. JavaScript is everywhere ](#Chapter 1. JavaScript is everywhere )
+1. [Chapter 1. JavaScript is everywhere ](#Chapter1 )
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 
-## Chapter 1. JavaScript is everywhere 
+## Chapter1. JavaScript is everywhere 
 ## Example2
 ## Third Example
 
