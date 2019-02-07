@@ -1,6 +1,18 @@
 # Secrets of the JavaScript Ninja
 Is a solid book resource for the current state of using JavaScript.
 
+
+# Table of Contents
+1. [Chapter 1. JavaScript is everywhere ](#Chapter1 )
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+
+## Chapter1. JavaScript is everywhere 
+## Example2
+## Third Example
+
+
+
 ## Short ES6 reminder:
 - **Template literals** - are embed expressions into strings: `${ninja}`. 
 - **Block-scoped variables:**
@@ -169,14 +181,6 @@ Chain in a catch method to catch promise failures: myPromise.catch(e => alert(e)
 
 
 
-# Table of Contents
-1. [Chapter 1. JavaScript is everywhere ](#Chapter1 )
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-
-## Chapter1. JavaScript is everywhere 
-## Example2
-## Third Example
 
 
 
