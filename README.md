@@ -7,9 +7,7 @@ Is a solid book resource for the current state of using JavaScript.
 2. [Chapter2](#chapter2)
 3. [Third Example](#third-example)
 
-## Chapter1. JavaScript is everywhere 
-## Example2
-## Third Example
+
 
 
 
@@ -179,7 +177,9 @@ Chain in a catch method to catch promise failures: myPromise.catch(e => alert(e)
 
 
 
-
+## JavaScript is everywhere 
+## Example2
+## Third Example
 
 
 
