@@ -175,9 +175,18 @@ Chain in a catch method to catch promise failures: myPromise.catch(e => alert(e)
 
 ```
 
-
-
 ## JavaScript is everywhere 
+### The core language features of JavaScript 
+__Functions are first-class objects__— In JavaScript, functions coexist with, and can be treated like, any other JavaScript object. They can be created through literals, referenced by variables, passed around as function arguments, and even returned as function return values. We devote much of chapter 3 to exploring some of the wonderful benefits that functions as first-class objects bring to our JavaScript code. 
+__Function closures__— The concept of function closures is generally poorly understood, but at the same time it fundamentally and irrevocably exemplifies the importance of functions to JavaScript. For now, it’s enough to know that a function is a closure when it actively maintains (“closes over”) the external variables used in its body. 
+
+
+
+The core items of a JavaScript engine 
+Three best practices in JavaScript development 
+
+
+
 ## Chapter2
 ## Chapter3
 
