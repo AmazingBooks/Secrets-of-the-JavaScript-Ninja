@@ -4,11 +4,7 @@ Is a solid book resource for the current state of using JavaScript.
 
 # Table of Contents
 1. [JavaScript is everywhere](#JavaScript-is-everywhere )
-2. [Chapter2](#chapter2)
-3. [Chapter3](#chapter3)
-
-
-
+2. [TBC](#TBC)
 
 
 ## Short ES6 reminder:
@@ -181,15 +177,31 @@ __Functions are first-class objects__— In JavaScript, functions coexist with, 
 
 __Function closures__— The concept of function closures is generally poorly understood, but at the same time it fundamentally and irrevocably exemplifies the importance of functions to JavaScript. For now, it’s enough to know that a function is a closure when it actively maintains (“closes over”) the external variables used in its body. 
 
+__SCOPES__— Until recently(ES6), JavaScript didn’t have block-level variables; instead, we had to rely only on global variables and function-level variables. 
+
+__Prototype-based object orientation__— Unlike other mainstream programming languages, which use class-based object orientation, JavaScript uses prototypes. 
+
+JavaScript consists of a close relationship between __objects__, __prototypes__, __functions and __closures__. Thus understanding the strong relationships between these concepts can vastly improve your JavaScript programming ability, giving you a strong foundation for any type of __Application Development__, regardless of whether your JavaScript code will be executed in a web page, in a desktop app, in a mobile app, or on the server. 
+
+#### How will JavaScript evolve? 
+The ECMAScript committee, in charge of standardizing the language, has just finished the ES8/ES2017 version of JavaScript. The ES8 version is a relatively small upgrade to JavaScript (at least, when compared to ES6), because the committee’s goal going forward is to focus on smaller, yearly incremental changes to the language. Yearly incremental updates to the language specification are excellent news, but this doesn’t mean that web developers will instantly have access to the new features after the specification has been released. JavaScript code has to be executed by a Java-Script engine. Unfortunately, although the JavaScript engine developers are trying to keep up and are doing better all the time, there’s always a chance to run into features that are yet to be supported. 
+
+#### What are Transpilers(“transformation + compiling”)?
+- Tools that take cutting-edge JavaScript code and transform it into similar code, which works properly in most current browsers.
+- Transpilers give us access to tomorrow’s JavaScript today. 
+
+Because of the rapid release cycles of browsers, we usually don’t have to wait long for a JavaScript feature to be supported.But what happens if we want to take advantage of all the benefits of the newest JavaScript features but are taken hostage by a harsh reality: The users of our web applications may still be using older browsers. One answer to this problem is transpilers.
+
+Today’s most popular transpilers are [Traceur](https://github.com/google/traceur-compiler) and [Babel](https://babeljs.io/).
+Setting them up by following one of the tutorials: [TRACEUR](https://github.com/google/traceur-compiler/wiki/Getting-Started
+) or [BABEL](https://babeljs.io/en/setup/).
+
+#### Understanding the BROWSER 
+These days, JavaScript applications can be executed in many environments. But the environment from which it all began, the environment from which all other environments have taken ideas, is the browser.
+The main compoents of Browser Infrastructure are:  __CSS, JS, HTML + BROWSER API(DOM, Events and Timers)___.
 
 
-The core items of a JavaScript engine 
-Three best practices in JavaScript development 
-
-
-
-## Chapter2
-## Chapter3
+## TBC
 
 
 
