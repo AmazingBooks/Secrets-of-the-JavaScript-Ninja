@@ -3,7 +3,7 @@ Is a solid book resource for the current state of using JavaScript.
 
 
 # Table of Contents
-1. [JavaScript is everywhere](#JavaScript-is-everywhere )
+1. [FUNDAMENTALS](#FUNDAMENTALS)
 2. [TBC](#TBC)
 
 
@@ -171,7 +171,7 @@ Chain in a catch method to catch promise failures: myPromise.catch(e => alert(e)
 
 ```
 
-## JavaScript is everywhere 
+## FUNDAMENTALS
 ### The core language features of JavaScript 
 __Functions are first-class objects__— In JavaScript, functions coexist with, and can be treated like, any other JavaScript object. They can be created through literals, referenced by variables, passed around as function arguments, and even returned as function return values. We devote much of chapter 3 to exploring some of the wonderful benefits that functions as first-class objects bring to our JavaScript code. 
 
